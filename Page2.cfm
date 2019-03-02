@@ -8,7 +8,7 @@
 </head>
 <body>
 <cfoutput>
-    <cfset x = 1/>
+    <cfset output = 1/>
     <div class="container" align="center">
 
         <header>
@@ -18,7 +18,8 @@
         <form action="">
             <article>
 
-                Number
+                <p>#form.numberForm_Box1#</p>
+                <p>#form.numberForm_Box2#</p>
 
             </article>
 

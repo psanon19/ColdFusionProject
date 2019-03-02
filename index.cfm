@@ -14,15 +14,15 @@
         <h1>ColdFusion Homework</h1>
     </header>
 
-    <form action="">
+    <form method="post" action="Page2.cfm" id="numberForm">
     <article>
         <label for="Box 1">Number 1:</label>
-        <input type="number" value="0" id="Box 1">
+        <input type="number" name="numberForm_Box1" value="0" id="Box 1"/>
         <hr/>
         <label for="Box 2">Number 2:</label>
-        <input type="number" value="0" id="Box 2">
+        <input type="number" name="numberForm_Box2" value="0" id="Box 2"/>
         <br>
-        <input type="submit" class="button">
+        <input type="submit" value="Submit" name="numberForm_Submit" class="button"/>
     </article>
 
     </form>
