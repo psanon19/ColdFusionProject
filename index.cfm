@@ -11,16 +11,16 @@
 <div class="container" align="center">
 
     <header>
-        <h1>ColdFusion Homework</h1>
+        <h1><a href="">ColdFusion Homework</a></h1>
     </header>
 
     <form method="post" action="Page2.cfm" id="numberForm">
     <article>
         <label for="Box 1">Number 1:</label>
-        <input type="number" name="numberForm_Box1" value="0" id="Box 1"/>
+        <input type="number" name="numberForm_Box1" value="0" id="Box 1" title="Input a number that is less than 101"/>
         <hr/>
         <label for="Box 2">Number 2:</label>
-        <input type="number" name="numberForm_Box2" value="0" id="Box 2"/>
+        <input type="number" name="numberForm_Box2" value="0" id="Box 2" title="Input any number"/>
         <br>
         <input type="submit" value="Submit" name="numberForm_Submit" class="button"/>
     </article>
