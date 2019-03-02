@@ -32,7 +32,7 @@
     </aside>
 
     <footer>
-        A Nightxgamer website
+        Page 1
     </footer>
 
 
