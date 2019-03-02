@@ -10,7 +10,7 @@
 <body>
     <cfoutput>
     <!---Variables set from the first page information--->
-        <cfset outputValue = form.answerForm_Box1a+form.answerForm_Box2a/>
+        <cfset outputValue = form.answerForm_Box1a*form.answerForm_Box2a/>
         <cfset mindOverData = 'http://www.mind-over-data.com/'/>
 
     <!---Container class for CSS Grid layout--->
