@@ -26,7 +26,7 @@
                 <h2>
                     <p>Your total is #outputValue#</p>
                         <hr/>
-                    <p><a href="#mindOverData#" target="_blank">Mind over Date</a> </p>
+                    <p><a href="#mindOverData#" target="_blank">Mind over Data</a> </p>
                 </h2>
             </article>
 
